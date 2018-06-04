@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BA7BBDD20C5488300EE5F91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA7BBDC20C5488300EE5F91 /* AppDelegate.swift */; };
+		8BA7BBDF20C5488300EE5F91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA7BBDE20C5488300EE5F91 /* ViewController.swift */; };
+		8BA7BBE220C5488300EE5F91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BA7BBE020C5488300EE5F91 /* Main.storyboard */; };
+		8BA7BBE420C5488400EE5F91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BA7BBE320C5488400EE5F91 /* Assets.xcassets */; };
+		8BA7BBE720C5488400EE5F91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BA7BBE520C5488400EE5F91 /* LaunchScreen.storyboard */; };
+		8BA7BBF220C5488400EE5F91 /* Fortune_Cookie_MonsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA7BBF120C5488400EE5F91 /* Fortune_Cookie_MonsterTests.swift */; };
+		8BA7BBFD20C5488400EE5F91 /* Fortune_Cookie_MonsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA7BBFC20C5488400EE5F91 /* Fortune_Cookie_MonsterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BA7BBEE20C5488400EE5F91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BA7BBD120C5488300EE5F91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BA7BBD820C5488300EE5F91;
+			remoteInfo = "Fortune Cookie Monster";
+		};
+		8BA7BBF920C5488400EE5F91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BA7BBD120C5488300EE5F91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BA7BBD820C5488300EE5F91;
+			remoteInfo = "Fortune Cookie Monster";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8BA7BBD920C5488300EE5F91 /* Fortune Cookie Monster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fortune Cookie Monster.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BA7BBDC20C5488300EE5F91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8BA7BBDE20C5488300EE5F91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8BA7BBE120C5488300EE5F91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BA7BBE320C5488400EE5F91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BA7BBE620C5488400EE5F91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BA7BBE820C5488400EE5F91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BA7BBED20C5488400EE5F91 /* Fortune Cookie MonsterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fortune Cookie MonsterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BA7BBF120C5488400EE5F91 /* Fortune_Cookie_MonsterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fortune_Cookie_MonsterTests.swift; sourceTree = "<group>"; };
+		8BA7BBF320C5488400EE5F91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BA7BBF820C5488400EE5F91 /* Fortune Cookie MonsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fortune Cookie MonsterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BA7BBFC20C5488400EE5F91 /* Fortune_Cookie_MonsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fortune_Cookie_MonsterUITests.swift; sourceTree = "<group>"; };
+		8BA7BBFE20C5488400EE5F91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BA7BBD620C5488300EE5F91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BA7BBEA20C5488400EE5F91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BA7BBF520C5488400EE5F91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BA7BBD020C5488300EE5F91 = {
+			isa = PBXGroup;
+			children = (
+				8BA7BBDB20C5488300EE5F91 /* Fortune Cookie Monster */,
+				8BA7BBF020C5488400EE5F91 /* Fortune Cookie MonsterTests */,
+				8BA7BBFB20C5488400EE5F91 /* Fortune Cookie MonsterUITests */,
+				8BA7BBDA20C5488300EE5F91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BA7BBDA20C5488300EE5F91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BA7BBD920C5488300EE5F91 /* Fortune Cookie Monster.app */,
+				8BA7BBED20C5488400EE5F91 /* Fortune Cookie MonsterTests.xctest */,
+				8BA7BBF820C5488400EE5F91 /* Fortune Cookie MonsterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BA7BBDB20C5488300EE5F91 /* Fortune Cookie Monster */ = {
+			isa = PBXGroup;
+			children = (
+				8BA7BBDC20C5488300EE5F91 /* AppDelegate.swift */,
+				8BA7BBDE20C5488300EE5F91 /* ViewController.swift */,
+				8BA7BBE020C5488300EE5F91 /* Main.storyboard */,
+				8BA7BBE320C5488400EE5F91 /* Assets.xcassets */,
+				8BA7BBE520C5488400EE5F91 /* LaunchScreen.storyboard */,
+				8BA7BBE820C5488400EE5F91 /* Info.plist */,
+			);
+			path = "Fortune Cookie Monster";
+			sourceTree = "<group>";
+		};
+		8BA7BBF020C5488400EE5F91 /* Fortune Cookie MonsterTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BA7BBF120C5488400EE5F91 /* Fortune_Cookie_MonsterTests.swift */,
+				8BA7BBF320C5488400EE5F91 /* Info.plist */,
+			);
+			path = "Fortune Cookie MonsterTests";
+			sourceTree = "<group>";
+		};
+		8BA7BBFB20C5488400EE5F91 /* Fortune Cookie MonsterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8BA7BBFC20C5488400EE5F91 /* Fortune_Cookie_MonsterUITests.swift */,
+				8BA7BBFE20C5488400EE5F91 /* Info.plist */,
+			);
+			path = "Fortune Cookie MonsterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BA7BBD820C5488300EE5F91 /* Fortune Cookie Monster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BA7BC0120C5488400EE5F91 /* Build configuration list for PBXNativeTarget "Fortune Cookie Monster" */;
+			buildPhases = (
+				8BA7BBD520C5488300EE5F91 /* Sources */,
+				8BA7BBD620C5488300EE5F91 /* Frameworks */,
+				8BA7BBD720C5488300EE5F91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fortune Cookie Monster";
+			productName = "Fortune Cookie Monster";
+			productReference = 8BA7BBD920C5488300EE5F91 /* Fortune Cookie Monster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BA7BBEC20C5488400EE5F91 /* Fortune Cookie MonsterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BA7BC0420C5488400EE5F91 /* Build configuration list for PBXNativeTarget "Fortune Cookie MonsterTests" */;
+			buildPhases = (
+				8BA7BBE920C5488400EE5F91 /* Sources */,
+				8BA7BBEA20C5488400EE5F91 /* Frameworks */,
+				8BA7BBEB20C5488400EE5F91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BA7BBEF20C5488400EE5F91 /* PBXTargetDependency */,
+			);
+			name = "Fortune Cookie MonsterTests";
+			productName = "Fortune Cookie MonsterTests";
+			productReference = 8BA7BBED20C5488400EE5F91 /* Fortune Cookie MonsterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8BA7BBF720C5488400EE5F91 /* Fortune Cookie MonsterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BA7BC0720C5488400EE5F91 /* Build configuration list for PBXNativeTarget "Fortune Cookie MonsterUITests" */;
+			buildPhases = (
+				8BA7BBF420C5488400EE5F91 /* Sources */,
+				8BA7BBF520C5488400EE5F91 /* Frameworks */,
+				8BA7BBF620C5488400EE5F91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BA7BBFA20C5488400EE5F91 /* PBXTargetDependency */,
+			);
+			name = "Fortune Cookie MonsterUITests";
+			productName = "Fortune Cookie MonsterUITests";
+			productReference = 8BA7BBF820C5488400EE5F91 /* Fortune Cookie MonsterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BA7BBD120C5488300EE5F91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Zuhlke UK";
+				TargetAttributes = {
+					8BA7BBD820C5488300EE5F91 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					8BA7BBEC20C5488400EE5F91 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 8BA7BBD820C5488300EE5F91;
+					};
+					8BA7BBF720C5488400EE5F91 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 8BA7BBD820C5488300EE5F91;
+					};
+				};
+			};
+			buildConfigurationList = 8BA7BBD420C5488300EE5F91 /* Build configuration list for PBXProject "Fortune Cookie Monster" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BA7BBD020C5488300EE5F91;
+			productRefGroup = 8BA7BBDA20C5488300EE5F91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BA7BBD820C5488300EE5F91 /* Fortune Cookie Monster */,
+				8BA7BBEC20C5488400EE5F91 /* Fortune Cookie MonsterTests */,
+				8BA7BBF720C5488400EE5F91 /* Fortune Cookie MonsterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BA7BBD720C5488300EE5F91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA7BBE720C5488400EE5F91 /* LaunchScreen.storyboard in Resources */,
+				8BA7BBE420C5488400EE5F91 /* Assets.xcassets in Resources */,
+				8BA7BBE220C5488300EE5F91 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BA7BBEB20C5488400EE5F91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BA7BBF620C5488400EE5F91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BA7BBD520C5488300EE5F91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA7BBDF20C5488300EE5F91 /* ViewController.swift in Sources */,
+				8BA7BBDD20C5488300EE5F91 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BA7BBE920C5488400EE5F91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA7BBF220C5488400EE5F91 /* Fortune_Cookie_MonsterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BA7BBF420C5488400EE5F91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA7BBFD20C5488400EE5F91 /* Fortune_Cookie_MonsterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BA7BBEF20C5488400EE5F91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BA7BBD820C5488300EE5F91 /* Fortune Cookie Monster */;
+			targetProxy = 8BA7BBEE20C5488400EE5F91 /* PBXContainerItemProxy */;
+		};
+		8BA7BBFA20C5488400EE5F91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BA7BBD820C5488300EE5F91 /* Fortune Cookie Monster */;
+			targetProxy = 8BA7BBF920C5488400EE5F91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BA7BBE020C5488300EE5F91 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BA7BBE120C5488300EE5F91 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BA7BBE520C5488400EE5F91 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BA7BBE620C5488400EE5F91 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BA7BBFF20C5488400EE5F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8BA7BC0020C5488400EE5F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BA7BC0220C5488400EE5F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W46A5HMB5C;
+				INFOPLIST_FILE = "Fortune Cookie Monster/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zuhlke.Fortune-Cookie-Monster";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BA7BC0320C5488400EE5F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W46A5HMB5C;
+				INFOPLIST_FILE = "Fortune Cookie Monster/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zuhlke.Fortune-Cookie-Monster";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8BA7BC0520C5488400EE5F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W46A5HMB5C;
+				INFOPLIST_FILE = "Fortune Cookie MonsterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zuhlke.Fortune-Cookie-MonsterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fortune Cookie Monster.app/Fortune Cookie Monster";
+			};
+			name = Debug;
+		};
+		8BA7BC0620C5488400EE5F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W46A5HMB5C;
+				INFOPLIST_FILE = "Fortune Cookie MonsterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zuhlke.Fortune-Cookie-MonsterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fortune Cookie Monster.app/Fortune Cookie Monster";
+			};
+			name = Release;
+		};
+		8BA7BC0820C5488400EE5F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W46A5HMB5C;
+				INFOPLIST_FILE = "Fortune Cookie MonsterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zuhlke.Fortune-Cookie-MonsterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fortune Cookie Monster";
+			};
+			name = Debug;
+		};
+		8BA7BC0920C5488400EE5F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W46A5HMB5C;
+				INFOPLIST_FILE = "Fortune Cookie MonsterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zuhlke.Fortune-Cookie-MonsterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fortune Cookie Monster";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BA7BBD420C5488300EE5F91 /* Build configuration list for PBXProject "Fortune Cookie Monster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BA7BBFF20C5488400EE5F91 /* Debug */,
+				8BA7BC0020C5488400EE5F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BA7BC0120C5488400EE5F91 /* Build configuration list for PBXNativeTarget "Fortune Cookie Monster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BA7BC0220C5488400EE5F91 /* Debug */,
+				8BA7BC0320C5488400EE5F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BA7BC0420C5488400EE5F91 /* Build configuration list for PBXNativeTarget "Fortune Cookie MonsterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BA7BC0520C5488400EE5F91 /* Debug */,
+				8BA7BC0620C5488400EE5F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BA7BC0720C5488400EE5F91 /* Build configuration list for PBXNativeTarget "Fortune Cookie MonsterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BA7BC0820C5488400EE5F91 /* Debug */,
+				8BA7BC0920C5488400EE5F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BA7BBD120C5488300EE5F91 /* Project object */;
+}
