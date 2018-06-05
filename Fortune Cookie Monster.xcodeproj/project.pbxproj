@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B18C0E520C6C1BC00A6979B /* fortunes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8B18C0E420C6C1BC00A6979B /* fortunes.txt */; };
 		8BA7BBDD20C5488300EE5F91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA7BBDC20C5488300EE5F91 /* AppDelegate.swift */; };
 		8BA7BBDF20C5488300EE5F91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA7BBDE20C5488300EE5F91 /* ViewController.swift */; };
 		8BA7BBE220C5488300EE5F91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BA7BBE020C5488300EE5F91 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		8BA7BBE720C5488400EE5F91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BA7BBE520C5488400EE5F91 /* LaunchScreen.storyboard */; };
 		8BA7BBF220C5488400EE5F91 /* Fortune_Cookie_MonsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA7BBF120C5488400EE5F91 /* Fortune_Cookie_MonsterTests.swift */; };
 		8BA7BBFD20C5488400EE5F91 /* Fortune_Cookie_MonsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA7BBFC20C5488400EE5F91 /* Fortune_Cookie_MonsterUITests.swift */; };
+		8BA7BC0B20C5501F00EE5F91 /* MotionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA7BC0A20C5501F00EE5F91 /* MotionService.swift */; };
+		8BA7BC0D20C5519A00EE5F91 /* FortuneService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA7BC0C20C5519A00EE5F91 /* FortuneService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B18C0E420C6C1BC00A6979B /* fortunes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fortunes.txt; sourceTree = "<group>"; };
 		8BA7BBD920C5488300EE5F91 /* Fortune Cookie Monster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fortune Cookie Monster.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BA7BBDC20C5488300EE5F91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BA7BBDE20C5488300EE5F91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		8BA7BBF820C5488400EE5F91 /* Fortune Cookie MonsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fortune Cookie MonsterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BA7BBFC20C5488400EE5F91 /* Fortune_Cookie_MonsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fortune_Cookie_MonsterUITests.swift; sourceTree = "<group>"; };
 		8BA7BBFE20C5488400EE5F91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BA7BC0A20C5501F00EE5F91 /* MotionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionService.swift; sourceTree = "<group>"; };
+		8BA7BC0C20C5519A00EE5F91 /* FortuneService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,15 @@
 		8BA7BBDB20C5488300EE5F91 /* Fortune Cookie Monster */ = {
 			isa = PBXGroup;
 			children = (
+				8B18C0E420C6C1BC00A6979B /* fortunes.txt */,
 				8BA7BBDC20C5488300EE5F91 /* AppDelegate.swift */,
 				8BA7BBDE20C5488300EE5F91 /* ViewController.swift */,
 				8BA7BBE020C5488300EE5F91 /* Main.storyboard */,
 				8BA7BBE320C5488400EE5F91 /* Assets.xcassets */,
 				8BA7BBE520C5488400EE5F91 /* LaunchScreen.storyboard */,
 				8BA7BBE820C5488400EE5F91 /* Info.plist */,
+				8BA7BC0A20C5501F00EE5F91 /* MotionService.swift */,
+				8BA7BC0C20C5519A00EE5F91 /* FortuneService.swift */,
 			);
 			path = "Fortune Cookie Monster";
 			sourceTree = "<group>";
@@ -231,6 +240,7 @@
 			files = (
 				8BA7BBE720C5488400EE5F91 /* LaunchScreen.storyboard in Resources */,
 				8BA7BBE420C5488400EE5F91 /* Assets.xcassets in Resources */,
+				8B18C0E520C6C1BC00A6979B /* fortunes.txt in Resources */,
 				8BA7BBE220C5488300EE5F91 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +268,8 @@
 			files = (
 				8BA7BBDF20C5488300EE5F91 /* ViewController.swift in Sources */,
 				8BA7BBDD20C5488300EE5F91 /* AppDelegate.swift in Sources */,
+				8BA7BC0B20C5501F00EE5F91 /* MotionService.swift in Sources */,
+				8BA7BC0D20C5519A00EE5F91 /* FortuneService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
