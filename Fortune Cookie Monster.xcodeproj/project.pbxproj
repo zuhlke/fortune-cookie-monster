@@ -17,6 +17,11 @@
 		8BA7BBFD20C5488400EE5F91 /* Fortune_Cookie_MonsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA7BBFC20C5488400EE5F91 /* Fortune_Cookie_MonsterUITests.swift */; };
 		8BA7BC0B20C5501F00EE5F91 /* MotionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA7BC0A20C5501F00EE5F91 /* MotionService.swift */; };
 		8BA7BC0D20C5519A00EE5F91 /* FortuneService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA7BC0C20C5519A00EE5F91 /* FortuneService.swift */; };
+		8BC11FE720C7F16D0089C587 /* Fortunes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC11FDE20C7F16D0089C587 /* Fortunes.framework */; };
+		8BC11FEE20C7F16D0089C587 /* FortunesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC11FED20C7F16D0089C587 /* FortunesTests.swift */; };
+		8BC11FF020C7F16D0089C587 /* Fortunes.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BC11FE020C7F16D0089C587 /* Fortunes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BC11FF320C7F16D0089C587 /* Fortunes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC11FDE20C7F16D0089C587 /* Fortunes.framework */; };
+		8BC11FF420C7F16D0089C587 /* Fortunes.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC11FDE20C7F16D0089C587 /* Fortunes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +39,42 @@
 			remoteGlobalIDString = 8BA7BBD820C5488300EE5F91;
 			remoteInfo = "Fortune Cookie Monster";
 		};
+		8BC11FE820C7F16D0089C587 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BA7BBD120C5488300EE5F91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BC11FDD20C7F16D0089C587;
+			remoteInfo = Fortunes;
+		};
+		8BC11FEA20C7F16D0089C587 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BA7BBD120C5488300EE5F91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BA7BBD820C5488300EE5F91;
+			remoteInfo = "Fortune Cookie Monster";
+		};
+		8BC11FF120C7F16D0089C587 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BA7BBD120C5488300EE5F91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BC11FDD20C7F16D0089C587;
+			remoteInfo = Fortunes;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8BC11FFA20C7F16D0089C587 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8BC11FF420C7F16D0089C587 /* Fortunes.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8B18C0E420C6C1BC00A6979B /* fortunes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fortunes.txt; sourceTree = "<group>"; };
@@ -53,6 +93,12 @@
 		8BA7BBFE20C5488400EE5F91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BA7BC0A20C5501F00EE5F91 /* MotionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionService.swift; sourceTree = "<group>"; };
 		8BA7BC0C20C5519A00EE5F91 /* FortuneService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneService.swift; sourceTree = "<group>"; };
+		8BC11FDE20C7F16D0089C587 /* Fortunes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Fortunes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BC11FE020C7F16D0089C587 /* Fortunes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fortunes.h; sourceTree = "<group>"; };
+		8BC11FE120C7F16D0089C587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BC11FE620C7F16D0089C587 /* FortunesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FortunesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BC11FED20C7F16D0089C587 /* FortunesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortunesTests.swift; sourceTree = "<group>"; };
+		8BC11FEF20C7F16D0089C587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BC11FF320C7F16D0089C587 /* Fortunes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +124,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8BC11FDB20C7F16D0089C587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC11FE320C7F16D0089C587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC11FE720C7F16D0089C587 /* Fortunes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -86,6 +148,8 @@
 				8BA7BBDB20C5488300EE5F91 /* Fortune Cookie Monster */,
 				8BA7BBF020C5488400EE5F91 /* Fortune Cookie MonsterTests */,
 				8BA7BBFB20C5488400EE5F91 /* Fortune Cookie MonsterUITests */,
+				8BC11FDF20C7F16D0089C587 /* Fortunes */,
+				8BC11FEC20C7F16D0089C587 /* FortunesTests */,
 				8BA7BBDA20C5488300EE5F91 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,6 +160,8 @@
 				8BA7BBD920C5488300EE5F91 /* Fortune Cookie Monster.app */,
 				8BA7BBED20C5488400EE5F91 /* Fortune Cookie MonsterTests.xctest */,
 				8BA7BBF820C5488400EE5F91 /* Fortune Cookie MonsterUITests.xctest */,
+				8BC11FDE20C7F16D0089C587 /* Fortunes.framework */,
+				8BC11FE620C7F16D0089C587 /* FortunesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,7 +200,36 @@
 			path = "Fortune Cookie MonsterUITests";
 			sourceTree = "<group>";
 		};
+		8BC11FDF20C7F16D0089C587 /* Fortunes */ = {
+			isa = PBXGroup;
+			children = (
+				8BC11FE020C7F16D0089C587 /* Fortunes.h */,
+				8BC11FE120C7F16D0089C587 /* Info.plist */,
+			);
+			path = Fortunes;
+			sourceTree = "<group>";
+		};
+		8BC11FEC20C7F16D0089C587 /* FortunesTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BC11FED20C7F16D0089C587 /* FortunesTests.swift */,
+				8BC11FEF20C7F16D0089C587 /* Info.plist */,
+			);
+			path = FortunesTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8BC11FD920C7F16D0089C587 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC11FF020C7F16D0089C587 /* Fortunes.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		8BA7BBD820C5488300EE5F91 /* Fortune Cookie Monster */ = {
@@ -144,10 +239,12 @@
 				8BA7BBD520C5488300EE5F91 /* Sources */,
 				8BA7BBD620C5488300EE5F91 /* Frameworks */,
 				8BA7BBD720C5488300EE5F91 /* Resources */,
+				8BC11FFA20C7F16D0089C587 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8BC11FF220C7F16D0089C587 /* PBXTargetDependency */,
 			);
 			name = "Fortune Cookie Monster";
 			productName = "Fortune Cookie Monster";
@@ -190,13 +287,50 @@
 			productReference = 8BA7BBF820C5488400EE5F91 /* Fortune Cookie MonsterUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		8BC11FDD20C7F16D0089C587 /* Fortunes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BC11FF920C7F16D0089C587 /* Build configuration list for PBXNativeTarget "Fortunes" */;
+			buildPhases = (
+				8BC11FD920C7F16D0089C587 /* Headers */,
+				8BC11FDA20C7F16D0089C587 /* Sources */,
+				8BC11FDB20C7F16D0089C587 /* Frameworks */,
+				8BC11FDC20C7F16D0089C587 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fortunes;
+			productName = Fortunes;
+			productReference = 8BC11FDE20C7F16D0089C587 /* Fortunes.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8BC11FE520C7F16D0089C587 /* FortunesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BC11FFB20C7F16D0089C587 /* Build configuration list for PBXNativeTarget "FortunesTests" */;
+			buildPhases = (
+				8BC11FE220C7F16D0089C587 /* Sources */,
+				8BC11FE320C7F16D0089C587 /* Frameworks */,
+				8BC11FE420C7F16D0089C587 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BC11FE920C7F16D0089C587 /* PBXTargetDependency */,
+				8BC11FEB20C7F16D0089C587 /* PBXTargetDependency */,
+			);
+			name = FortunesTests;
+			productName = FortunesTests;
+			productReference = 8BC11FE620C7F16D0089C587 /* FortunesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		8BA7BBD120C5488300EE5F91 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0940;
+				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Zuhlke UK";
 				TargetAttributes = {
@@ -209,6 +343,13 @@
 					};
 					8BA7BBF720C5488400EE5F91 = {
 						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 8BA7BBD820C5488300EE5F91;
+					};
+					8BC11FDD20C7F16D0089C587 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					8BC11FE520C7F16D0089C587 = {
+						CreatedOnToolsVersion = 10.0;
 						TestTargetID = 8BA7BBD820C5488300EE5F91;
 					};
 				};
@@ -229,6 +370,8 @@
 				8BA7BBD820C5488300EE5F91 /* Fortune Cookie Monster */,
 				8BA7BBEC20C5488400EE5F91 /* Fortune Cookie MonsterTests */,
 				8BA7BBF720C5488400EE5F91 /* Fortune Cookie MonsterUITests */,
+				8BC11FDD20C7F16D0089C587 /* Fortunes */,
+				8BC11FE520C7F16D0089C587 /* FortunesTests */,
 			);
 		};
 /* End PBXProject section */
@@ -253,6 +396,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8BA7BBF620C5488400EE5F91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC11FDC20C7F16D0089C587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC11FE420C7F16D0089C587 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -289,6 +446,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8BC11FDA20C7F16D0089C587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC11FE220C7F16D0089C587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC11FEE20C7F16D0089C587 /* FortunesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -301,6 +473,21 @@
 			isa = PBXTargetDependency;
 			target = 8BA7BBD820C5488300EE5F91 /* Fortune Cookie Monster */;
 			targetProxy = 8BA7BBF920C5488400EE5F91 /* PBXContainerItemProxy */;
+		};
+		8BC11FE920C7F16D0089C587 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BC11FDD20C7F16D0089C587 /* Fortunes */;
+			targetProxy = 8BC11FE820C7F16D0089C587 /* PBXContainerItemProxy */;
+		};
+		8BC11FEB20C7F16D0089C587 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BA7BBD820C5488300EE5F91 /* Fortune Cookie Monster */;
+			targetProxy = 8BC11FEA20C7F16D0089C587 /* PBXContainerItemProxy */;
+		};
+		8BC11FF220C7F16D0089C587 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BC11FDD20C7F16D0089C587 /* Fortunes */;
+			targetProxy = 8BC11FF120C7F16D0089C587 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -556,6 +743,108 @@
 			};
 			name = Release;
 		};
+		8BC11FF520C7F16D0089C587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = W46A5HMB5C;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Fortunes/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zuhlke.Fortunes;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8BC11FF620C7F16D0089C587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = W46A5HMB5C;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Fortunes/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zuhlke.Fortunes;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8BC11FF720C7F16D0089C587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W46A5HMB5C;
+				INFOPLIST_FILE = FortunesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zuhlke.FortunesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fortune Cookie Monster.app/Fortune Cookie Monster";
+			};
+			name = Debug;
+		};
+		8BC11FF820C7F16D0089C587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W46A5HMB5C;
+				INFOPLIST_FILE = FortunesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zuhlke.FortunesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fortune Cookie Monster.app/Fortune Cookie Monster";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -591,6 +880,24 @@
 			buildConfigurations = (
 				8BA7BC0820C5488400EE5F91 /* Debug */,
 				8BA7BC0920C5488400EE5F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BC11FF920C7F16D0089C587 /* Build configuration list for PBXNativeTarget "Fortunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC11FF520C7F16D0089C587 /* Debug */,
+				8BC11FF620C7F16D0089C587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BC11FFB20C7F16D0089C587 /* Build configuration list for PBXNativeTarget "FortunesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC11FF720C7F16D0089C587 /* Debug */,
+				8BC11FF820C7F16D0089C587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

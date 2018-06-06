@@ -18,10 +18,10 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        if motion == nil {
+            fortuneLabel.text = "No motion available! 😱"
+        }
         // Do any additional setup after loading the view, typically from a nib.
-        
-        
-
     }
 
     override func didReceiveMemoryWarning() {
@@ -31,13 +31,13 @@ class ViewController: UIViewController {
     
     override func motionBegan(_ motionType: UIEventSubtype, with event: UIEvent?) {
         if motionType == .motionShake {
-            self.motion.beginRecordingMotion()
+            self.motion?.beginRecordingMotion()
         }
     }
     
     override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
-        if motion == .motionShake {
-            let seed = self.motion.stopRecordingMotion()
+        if motion == .motionShake,
+            let seed = self.motion?.stopRecordingMotion() {
             fortuneLabel.attributedText = formatString(fortune.getFortune(withSeed: seed))
         }
     }

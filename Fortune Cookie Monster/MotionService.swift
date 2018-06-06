@@ -17,9 +17,9 @@ struct MotionService {
     
     private var aggregateFigure: Double = 0
     
-    init() {
+    init?() {
         guard manager.isDeviceMotionAvailable else {
-            fatalError("No device motion available! 😱")
+            return nil
         }
         manager.showsDeviceMovementDisplay = true
         manager.startDeviceMotionUpdates()
@@ -32,7 +32,6 @@ struct MotionService {
                 let motion = motion else {
                     fatalError("DISASTER!")
             }
-//            self.aggregateFigure += motion.attitude.pitch * motion.attitude.yaw * motion.attitude.roll
             self.recorder.add(motion.attitude.pitch + motion.attitude.yaw + motion.attitude.roll)
         }
     }
