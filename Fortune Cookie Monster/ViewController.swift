@@ -29,13 +29,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    override func motionBegan(_ motionType: UIEventSubtype, with event: UIEvent?) {
+    override func motionBegan(_ motionType: UIEvent.EventSubtype, with event: UIEvent?) {
         if motionType == .motionShake {
             self.motion?.beginRecordingMotion()
         }
     }
     
-    override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
+    override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
         if motion == .motionShake,
             let seed = self.motion?.stopRecordingMotion() {
             fortuneLabel.attributedText = formatString(fortune.getFortune(withSeed: seed))
